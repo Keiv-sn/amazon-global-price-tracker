@@ -1,7 +1,7 @@
-# requirements.txt
 streamlit
-requests
-beautifulsoup4
+cloudscraper
+fake-useragent
 pandas
-lxml
 plotly
+beautifulsoup4
+lxml
