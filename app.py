@@ -23,3 +23,7 @@ if st.button("Buscar precios"):
         st.download_button("Descargar CSV", df.to_csv(index=False).encode(), f"amazon_{keyword}_{country}.csv")
     else:
         st.error("No se encontraron productos. Prueba otra palabra.")
+
+    
+    
+#streamlit run app.py
